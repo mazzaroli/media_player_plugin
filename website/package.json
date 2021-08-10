@@ -1,0 +1,22 @@
+{
+  "name": "curso-profesional-de-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Carlos Mazzaroli <carlitosmazaroli@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^4.3.5"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "@mazzaroli/platzimediaplayer": "^1.0.0"
+  }
+}
